@@ -1,0 +1,9 @@
+name: Jenna
+version: 1.0
+author: FireImpossible
+main: me.FireImpossible.SupRyze.Main
+description: Changes nickname lol
+
+commands:
+  nick:
+    description: give yourself a nickname
