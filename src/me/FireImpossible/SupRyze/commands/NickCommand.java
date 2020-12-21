@@ -136,7 +136,6 @@ public class NickCommand implements CommandExecutor {
 			        else {
 			        	lastColorString = ChatColor.getLastColors(newName.substring(0, 15));
 			        }
-			        System.out.println("14 -> " + newName.charAt(14) + " \n15 -> " + newName.charAt(15) + " \n16 -> " + newName.charAt(16));
 	        	}
 	        }
 	        
