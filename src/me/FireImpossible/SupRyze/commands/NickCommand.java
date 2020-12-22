@@ -146,7 +146,7 @@ public class NickCommand implements CommandExecutor {
 			
 			// change stuff in the file
 			plugin.getConfig().set("players." + pUUID + ".nick", newName);
-//			plugin.getConfig().set("players." + pUUID + ".ogName", ogName);
+			plugin.getConfig().set("players." + pUUID + ".ogName", ogName);
 			// save file
 			plugin.saveConfig();
 		}
