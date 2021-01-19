@@ -10,7 +10,6 @@ public class Main extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		//new HelloCommand(this);
 		new NickCommand(this);
 		
 		PluginManager pm = getServer().getPluginManager();
